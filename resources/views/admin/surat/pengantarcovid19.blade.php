@@ -1,4 +1,4 @@
-@extends('layouts.appuser2')
+@extends('layouts.appuser')
 
 @section('content')
 <html>
@@ -49,10 +49,10 @@
   
   }
 </style>
-</style>
+
  <body class="page">
   <div class="container col-sm-12">
- <a href="/home/datasurat" class="btn btn-primary btn-sm">kembali</a><br><br>
+ <a href="/admin/datasurat" class="btn btn-primary btn-sm">kembali</a><br><br>
   </div>
  
   <div class="container card col-sm-10">
@@ -65,7 +65,7 @@
             <div class="kop">
             <font size="5" face="Times New Roman" >PEMERINTAH KABUPATEN LAMPUNG TENGAH</font><br>
             <font size="5" face="Times New Roman" >KECAMATAN PUNGGUR</font><br>
-            <font size="6" face="Times New Roman">KANTOR KEPALA KAMPUNG Ngestirahayu</font><br>
+            <font size="6" face="Times New Roman">KANTOR KEPALA KAMPUNG NGESTIRAHAYU</font><br>
             <font size="3" face="Times New Roman"><i>Jalan Raya Punggur-Metro,Kec. Punggur Kab. Lampung Tengah</i></font>
            </div> </center></td>
       </tr>
