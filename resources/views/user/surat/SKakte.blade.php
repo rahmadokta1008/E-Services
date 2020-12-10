@@ -64,7 +64,7 @@
             <div class="kop">
             <font size="5" face="Times New Roman" >PEMERINTAH KABUPATEN LAMPUNG TENGAH</font><br>
             <font size="5" face="Times New Roman" >KECAMATAN PUNGGUR</font><br>
-            <font size="6" face="Times New Roman">KANTOR KEPALA KAMPUNG TOTOKATON</font><br>
+            <font size="6" face="Times New Roman">KANTOR KEPALA KAMPUNG Ngestirahayu</font><br>
             <font size="3" face="Times New Roman"><i>Jalan Raya Punggur-Metro,Kec. Punggur Kab. Lampung Tengah</i></font>
            </div> </center></td>
       </tr>
@@ -82,7 +82,7 @@
     <font style="" size="3" face="Times New Roman"><b>Nomor : {{$surat->nosurat}}</b></font><br><br><br>
     </center>
     <div class="text">
-    <font style="" size="3" face="Times New Roman">Yang bertanda tangan dibawah ini Kepala Kampung Totokaton Kecamatan Punggur Kabupaten Lampung Tengah dengan ini menerangkan bahwa :</font><br><br>
+    <font style="" size="3" face="Times New Roman">Yang bertanda tangan dibawah ini Kepala Kampung Ngestirahayu Kecamatan Punggur Kabupaten Lampung Tengah dengan ini menerangkan bahwa :</font><br><br>
     </div>
   @foreach($penduduk as $p)
     <table style="margin-left: 60px;" cellpadding="3" cellspacing="3" 
@@ -126,7 +126,7 @@
             </tr>
             <tr>
                 <td></td>
-                <td><font style="" size="3" face="Times New Roman"> &nbsp;&nbsp;Kampung Totokaton Kecamatan Punggur.</font></td>
+                <td><font style="" size="3" face="Times New Roman"> &nbsp;&nbsp;Kampung Ngestirahayu Kecamatan Punggur.</font></td>
             </tr>
             <tr>
                 <td></td>
@@ -154,7 +154,7 @@
 
     
     <div class="text">
-<font size="3" face="Times New Roman">Orang tersebut adalah benar-benar penduduk Kampung Totokaton Kecamatan Punggur Kabupaten Lampung Tengah, dan benar merupakan anak {{$p->jenis_kelamin}} dari suami istri yang masing-masing bernama <b>{{$p->nama_ayah}}</b> dan <b>{{$p->nama_ibu}}</b>.</font><br>
+<font size="3" face="Times New Roman">Orang tersebut adalah benar-benar penduduk Kampung Ngestirahayu Kecamatan Punggur Kabupaten Lampung Tengah, dan benar merupakan anak {{$p->jenis_kelamin}} dari suami istri yang masing-masing bernama <b>{{$p->nama_ayah}}</b> dan <b>{{$p->nama_ibu}}</b>.</font><br>
 <br>
 @endforeach
 <font size="3" face="Times New Roman">Demikian surat keterangan ini kami buat dengan sebenar-benarnya agar dapat dipergunakan sebagaimana mestinya.</font>
@@ -162,11 +162,11 @@
     </div>
    
     <div class="opd">
-    <font size="3" face="Times New Roman">Dikeluarkan di	: Totokaton</font>
+    <font size="3" face="Times New Roman">Dikeluarkan di	: Ngestirahayu</font>
     <br>
     <font size="3" face="Times New Roman"><u>Pada tanggal	&nbsp;&nbsp;&nbsp;:  {{$surat->tglsurat}}</u></font>
     <br>
-    <font size="3" face="Times New Roman">Kepala Kampung Totokaton</font>
+    <font size="3" face="Times New Roman">Kepala Kampung Ngestirahayu</font>
     <br>
     <br>
     <br>

@@ -65,7 +65,7 @@
             <div class="kop">
             <font size="5" face="Times New Roman" >PEMERINTAH KABUPATEN LAMPUNG TENGAH</font><br>
             <font size="5" face="Times New Roman" >KECAMATAN PUNGGUR</font><br>
-            <font size="6" face="Times New Roman">KANTOR KEPALA KAMPUNG TOTOKATON</font><br>
+            <font size="6" face="Times New Roman">KANTOR KEPALA KAMPUNG Ngestirahayu</font><br>
             <font size="3" face="Times New Roman"><i>Jalan Raya Punggur-Metro,Kec. Punggur Kab. Lampung Tengah</i></font>
            </div> </center></td>
       </tr>
@@ -102,7 +102,7 @@
             </tr>
             <tr>
               <td><font style="" size="3" face="Times New Roman">Alamat</font></td>
-              <td><font style="" size="3" face="Times New Roman">  : {{ $p->dusun}}, RT. {{ $p->rt}} / {{ $p->rw}} Kampung Totokaton Kecamatan Punggur.</font></td>
+              <td><font style="" size="3" face="Times New Roman">  : {{ $p->dusun}}, RT. {{ $p->rt}} / {{ $p->rw}} Kampung Ngestirahayu Kecamatan Punggur.</font></td>
             </tr>
             <tr>
               <td width="120px"><font style="" size="3" face="Times New Roman">Nik / no. tlp.</font></td>
@@ -214,7 +214,7 @@
 
 
   <div style="margin-left: 500px; margin-top: 30px;">
-    <font size="3" face="Times New Roman">Dikeluarkan di	: Totokaton</font>
+    <font size="3" face="Times New Roman">Dikeluarkan di	: Ngestirahayu</font>
   </div><br>
 
   <table height="120px" border="0">
@@ -236,7 +236,7 @@
     <br>
     </center>
     <div class="opd">
-    <font size="3" face="Times New Roman">Kepala Kampung Totokaton</font>
+    <font size="3" face="Times New Roman">Kepala Kampung Ngestirahayu</font>
     <br>
     <br>
     <br>
