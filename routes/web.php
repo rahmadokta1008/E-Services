@@ -109,8 +109,19 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth','role:admin']], funct
 		
 		//pembuatan surat
 		Route::get('/buatsurat', 'SuratController@buatsurat');
+		Route::get('/buatsuratcovid', 'SuratController@buatsuratcovid');
+		Route::get('/buatsuratIzinlingkungan', 'SuratController@buatsuratIzinlingkungan');
+		Route::get('/buatSKbelumnikah', 'SuratController@buatSKbelumnikah');
+		Route::get('/buatSKberdomisili', 'SuratController@buatSKberdomisili');
+		Route::get('/buatSKkematian', 'SuratController@buatSKkematian');
+		Route::get('/buatSKktpsementara', 'SuratController@buatSKktpsementara');
+		Route::get('/buatSKmenikah', 'SuratController@buatSKmenikah');
 		Route::get('/buatSKtidakmampu', 'SuratController@buatSKtidakmampu');
-	
+		Route::get('/buatSpengantarImunisasi', 'SuratController@buatSpengantarImunisasi');
+		Route::get('/buatSPizinkeramaian', 'SuratController@buatSPizinkeramaian');
+		Route::get('/buatSKusaha', 'SuratController@buatSKusaha');
+		Route::get('/buatSKakte', 'SuratController@buatSKakte');
+		
 		//ajax
 		Route::get('/pengguna/{id}', 'SuratController@namaAjax');
 		Route::get('/p/{id}', 'SuratController@namaAjax2');
@@ -118,7 +129,9 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth','role:admin']], funct
 		Route::put('/buatsurat/proses/{nik}', 'SuratController@buatsuratproses');
 		
 		//lihat data surat
-
+		Route::get('/datasurat','SuratController@datasurat');
+		Route::get('/datasurat/lihat/{id},{nik},{judul_surat}','SuratController@lihatsurat');
+		Route::get('/datasurat/hapussurat/{id}','SuratController@hapusdatasurat');
 		Route::get('/cetak','PendudukController@cetak');
 		
 

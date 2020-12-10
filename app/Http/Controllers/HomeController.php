@@ -44,8 +44,8 @@ class HomeController extends Controller
 		$surat=DB::table('cetak_surats')->where('id',$id)->first();
 
 		if($judul_surat=="Surat Pengantar Covid-19"){
-			return view('surat.pengantarcovid19_pdf_cetak',compact('surat','penduduk'));
-			/*$pdf = PDF::loadview('surat.pengantarcovid19_pdf_cetak',compact('surat','penduduk'));
+			return view('surat.pengantarcovid19_cetak',compact('surat','penduduk'));
+			/*$pdf = PDF::loadview('surat.pengantarcovid19_cetak',compact('surat','penduduk'));
 			return $pdf->stream();*/
 
 		 }else if($judul_surat=="Surat Izin Lingkungan"){

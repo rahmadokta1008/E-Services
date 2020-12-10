@@ -79,7 +79,7 @@
 
                          
               <li class="nav-item">
-                <a class="nav-link">
+                <a href="/admin/datasurat" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                   <p>Data Surat</p>
                 </a>
