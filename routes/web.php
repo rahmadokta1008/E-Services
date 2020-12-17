@@ -143,11 +143,8 @@ Route::post('/penggunatambah/keep','PenggunaController@penggunatambahkeep');
 Route::get('/pengguna/edit/{id}','PenggunaController@editpengguna');
 Route::put('/pengguna/update/{id}','PenggunaController@penggunaupdate');
 Route::get('/pengguna/hapus/{id}','PenggunaController@penggunadelete'); 
-
 Route::get('/pengelola/{id}', 'PenggunaController@namaAjax');
-
 Route::post('/pengelola/tambah','PengelolaController@pengelola');
-
 Route::get('/pengelola/hapus/{user_id}','PengelolaController@pengelolahapus'); 
 
 

@@ -1,4 +1,4 @@
-@extends('layouts.appuser')
+@extends('layouts.appuser2')
 
 @section('content')
 
@@ -27,40 +27,40 @@
             <td ><a href="/home/buatSKtidakmampu"><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
             <td width="250px" align="left">Surat Keterangan Tidak Mampu </td>
 
-            <td><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
+            <td><a href="/home/buatSsuratcovid"><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
             <td width="250px" align="left">Surat Pengantar Covid </td>
 
-            <td><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
+            <td><a href="/home/buatsuratIzinlingkungan"><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
             <td align="left">Surat Izin Lingkungan</td>
         </tr>
         <tr>
-            <td><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
+            <td><a href="/home/buatSKberdomisili"><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
             <td align="left">Surat Keterangan Berdomisili</td>
 
-            <td><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
+            <td><a href="/home/buatSKbelumnikah"><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
             <td align="left">Surat Belum Menikah </td>
 
-            <td><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
+            <td><a href="/home/buatSKkematian"><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
             <td align="left">Surat Keterangan Kematian </td>
         </tr>
         <tr>
-            <td><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
+            <td><a href="/home/buatSKktpsementara"><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
             <td align="left">Surat Kterangan KTP Sementara </td>
 
-            <td><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
+            <td><a href="/home/buatSKmenikah"><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
             <td align="left">Surat Keterangan Menikah</td>
 
-            <td><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
+            <td><a href="/home/buatSKusaha"><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
             <td align="left">Surat Keterangan Usaha</td>
         </tr>
         <tr>
-            <td><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
+            <td><a href="/home/buatSpengantarImunisasi"><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
             <td align="left">Surat Pengantar Imunisasi </td>
 
-            <td><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
+            <td><a href="/home/buatSPizinkeramaian"><div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
             <td align="left">Surat Pengantar Izin Keramaian</td>
 
-            <td><<div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
+            <td><a href="/home/buatSKakte"><<div class="zoom"><img height="80px" src="/img/logo.png"></div></a></td>
             <td align="left">Surat Keterangan Akte </td>
         </tr>
 </table>
